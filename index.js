@@ -8,7 +8,7 @@ const bodyParser = require('body-parser');
 const fetch = (...args) => import('node-fetch').then(({ default: fetch }) => fetch(...args));
 
 // === CONFIG ===
-const TOKEN = "8395060598:AAFXcRw_XvkB9EYDNCtuIvmmhH4TJEg8Lfk";  // Replace with real BotFather token
+const TOKEN = "";  // Replace with real BotFather token
 const PORT = 3000;
 const uploadDir = path.join(__dirname, "uploads");
 if (!fs.existsSync(uploadDir)) fs.mkdirSync(uploadDir);
